@@ -1,3 +1,13 @@
 @forward 'colors';
 @forward 'typography';
 @forward 'boilerplate';
+@forward 'themes/light';
+@forward 'themes/dark';
+
+
+.app {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}
+
+
